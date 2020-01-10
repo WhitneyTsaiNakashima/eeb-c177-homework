@@ -8,4 +8,9 @@ Wedneday
 	Dinner: Falafel gyro
 Thursday
 	Breakfast: Yogurt with granola
+	Lunch: Greek salad
+	Dinner: Caesar salad, portobello fries, calabrese pizza
+Friday
+	Breakfast: Yogurt with granola
+
 
