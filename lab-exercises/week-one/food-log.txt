@@ -12,5 +12,6 @@ Thursday
 	Dinner: Caesar salad, portobello fries, calabrese pizza
 Friday
 	Breakfast: Yogurt with granola
+	Lunch: Carnitas Burrito
 
 
