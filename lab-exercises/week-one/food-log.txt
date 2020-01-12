@@ -13,5 +13,12 @@ Thursday
 Friday
 	Breakfast: Yogurt with granola
 	Lunch: Carnitas Burrito
+	Dinner: Salad, mushroom & olive pizza
+Saturday
+	Breakfast: Yogurt with granola
+	Lunch: Fruit salad, pizza
+	Dinner: Burrito
+Sunday
+	Breakfast: Waffle & peaches
 
 
