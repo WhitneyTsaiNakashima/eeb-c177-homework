@@ -1,0 +1,560 @@
+    1  cd downloads
+    2  cd Downloads/
+    3  sha256sum Anaconda3-2019.10-Linux-x86_64.sh 
+    4  bash Anaconda3-2019.10-Linux-x86_64.sh 
+    5  source ~/.bashrc
+    6  conda list
+    7  python --version
+    8  conda update --all --yes
+    9  jupyter notebook
+   10  sudo apt update
+   11  sudo apt install git
+   12  git --version
+   13  sudo add-apt-repository ppa:webupd8team/atom
+   14  sudo apt-get update
+   15  sudo apt-get install atom
+   16  sudo apt-get install nano
+   17  conda install -c r rstudio
+   18  sudo apt -y install r-base
+   19  sudo apt install gdebi-core
+   20  cd Downloads/
+   21  ls
+   22  sudo gdebi rstudio-1.2.5033-amd64.deb 
+   23  ls
+   24  rstudio
+   25  cd Desktop/
+   26  vim
+   27  nano test-file.txt
+   28  touch new.html
+   29  nano new.html
+   30  nano new.html 
+   31  rm test-file.txt 
+   32  rm new.html 
+   33  git --version
+   34  git config --global user.name"WhitneyTsaiNakashima"
+   35  git config --global user.email "wtsai@oxy.edu"
+   36  ls
+   37  mkdir Developer
+   38  ls
+   39  cd Developer/
+   40  mkdir repos
+   41  cd repos
+   42  git clone https://github.com/WhitneyTsaiNakashima/eeb-c177-homework.git
+   43  ls
+   44  cd eeb-c177-homework/
+   45  ls
+   46  git status
+   47  touch test_file.txt
+   48  ls
+   49  nano test_file.txt
+   50  ls
+   51  less test_file.txt 
+   52  git add -A
+   53  git commit -m "first commit"
+   54  git push origin master
+   55  git log
+   56  nano test_file.txt
+   57  git add -A
+   58  git commit -m "second commit"
+   59  git push origin master
+   60  git log
+   61  git config --global credential.helper cache #(set Git to use credential memory cache)
+   62  git config --global credential.helper 'cache --timeout=3600' #(cache timeout after 1 hour (in secs))
+   63  rm test_file.txt 
+   64  mkdir lab-exercises
+   65  cd lab-exercises/
+   66  mkdir week-one
+   67  cd week-one/
+   68  nano food-log.txt
+   69  git add -A
+   70  git commit -m "Food Log 1"
+   71  git push origin master
+   72  git log
+   73  cd Developer/repos/
+   74  ls
+   75  cd eeb-c177-homework/
+   76  ls
+   77  cd lab-exercises/
+   78  ls
+   79  cd week-one/
+   80  ls
+   81  nano food-log.txt 
+   82  git add -A
+   83  git commit -m "Food log 2, added Tuesday lunch and dinner"
+   84  git push origin master
+   85  git config --global credential.helper 'cache --timeout=3600' #(cache timeout after 1 hour (in secs))
+   86  cd Developer/repos/eeb-c177-homework/
+   87  cd lab-exercises/week-one/
+   88  ls
+   89  nano food-log.txt 
+   90  git add -A
+   91  git commit -m "Food log 3, added Wednesday breakfast"
+   92  git push origin master
+   93  git config --global credential.helper cache
+   94  git config --global credential.helper 'cache --timeout=3600'
+   95  cd Developer/repos/eeb-c177-homework/lab-exercises/week-one/
+   96  ls
+   97  nano food-log.txt 
+   98  git add -A
+   99  git commit -m "Food log 4, added Wednesday lunch"
+  100  git push origin master
+  101  cd Developer/repos/eeb-c177-homework/lab-exercises/week-one/
+  102  nano food-log.txt 
+  103  git add -A
+  104  git commit -m "Food log 5, added Wednesday dinner and Thursday breakfast"
+  105  git push origin master
+  106  cd
+  107  ls
+  108  cd Developer/repos
+  109  ls
+  110  git clone https://github.com/CSB-book/CSB.git
+  111  ls CSB
+  112  ls
+  113  cd CSB
+  114  ls
+  115  cd data_wrangling/
+  116  ls
+  117  cd ..
+  118  ls
+  119  ls good_code/
+  120  ls
+  121  less README.md 
+  122  ls unix/
+  123  cd unix/
+  124  ls data/
+  125  ls
+  126  cd data/
+  127  less Buzzard2015_
+  128  less Buzzard2015_about.txt 
+  129  cd Developer/repos/eeb-c177-homework/lab-exercises/
+  130  ls
+  131  cd week-one/
+  132  ls
+  133  nano food-log.txt 
+  134  git add -A
+  135  git commit -m "Food log 8, added Friday dinner, all meals Saturday, and Sunday breakfast"
+  136  cd
+  137  cd Developer/repos/
+  138  ls
+  139  cd
+  140  ls
+  141  mkdir temp-files
+  142  cd Developer/repos/
+  143  cd
+  144  cp ~/Developer/repos/eeb-c177-homework/ ~/temp-files/
+  145  cp -r ~/Developer/repos/eeb-c177-homework/ ~/temp-files/
+  146  ls
+  147  cd temp-files/
+  148  ls
+  149  cd eeb-c177-homework/
+  150  ls
+  151  cd lab-exercises/week-one/
+  152  ls
+  153  cd
+  154  cd Developer/repos/eeb-c177-homework/
+  155  git status
+  156  cp -a .git .git-old
+  157  find .git/objects/ -type f -empty | xargs rm
+  158  git fetch -p
+  159  git fsck --full
+  160  git status
+  161  git add -A
+  162  git commit -m "fix empty object file error"
+  163  git push origin master
+  164  cd lab-exercises/week-one/
+  165  ls
+  166  nano food-log.txt 
+  167  git status
+  168  cd Developer/repos/eeb-c177-homework/
+  169  git status
+  170  ls
+  171  mkdir class-exercises
+  172  rm -r class-exercises/
+  173  mkdir class-assignments
+  174  ls
+  175  git status
+  176  touch class_exercise_1-14_2020.txt
+  177  ls
+  178  rm class_exercise_1-14_2020.txt 
+  179  ls
+  180  cd class-assignments/
+  181  ls
+  182  touch class_exercises_1-14-2020
+  183  ls
+  184  rm class_exercises_1-14-2020 
+  185  ls
+  186  mkdir class_exercises_1-14-2020
+  187  ls
+  188  cd
+  189  ls
+  190  cd Developer/repos/
+  191  ls
+  192  git clone https://github.com/StefanoAllesina/CSB_2019.git
+  193  ls
+  194  cd eeb-c177-homework/
+  195  ls
+  196  cd class-assignments/
+  197  ls
+  198  cd class_exercises_1-14-2020/
+  199  pwd
+  200  cd ..
+  201  rm -r class_exercises_1-14-2020/
+  202  ls
+  203  mkdir class_exercises_1-14_2020
+  204  cd class_exercises_1-14_2020/
+  205  pwd
+  206  cd
+  207  cd Developer/repos/
+  208  ls
+  209  cd CSB
+  210  ls
+  211  cd ..
+  212  cd CSB_2019/
+  213  ls
+  214  cd week1
+  215  ls
+  216  cd data/
+  217  ls
+  218  cd
+  219  cd Developer/repos/eeb-c177-homework/class-assignments/
+  220  ls
+  221  cd ..
+  222  rm -r class-assignments/
+  223  ls
+  224  mkdir class_assignments_1-14_2020
+  225  ls
+  226  cd class_assignments_1-14_2020/
+  227  ls
+  228  pwd
+  229  git status
+  230  cd ..
+  231  ls
+  232  cd lab-exercises/
+  233  ls
+  234  mkdir week-two
+  235  -
+  236  echo $HOME
+  237  cd ..
+  238  ls
+  239  cd class_assignments_1-14_2020/
+  240  ls
+  241  pwd
+  242  mkdir "badly named file.txt"
+  243  ls
+  244  rm "badly named file.txt"/
+  245  ls
+  246  rm -r "badly named file.txt"/
+  247  touch "badly named file.txt"
+  248  ls
+  249  echo $HOME
+  250  cp "badly named file.txt" ~/
+  251  cd
+  252  ls
+  253  cd Developer/repos/eeb-c177-homework/class_assignments_1-14_2020/
+  254  ls
+  255  ls ~
+  256  rm "badly named file.txt"
+  257  ls
+  258  cd
+  259  ls
+  260  rm "badly named file.txt" 
+  261  cd Developer/repos/eeb-c177-homework/class_assignments_1-14_2020/
+  262  ls
+  263  man touch
+  264  man ls
+  265  man nano
+  266  man ls
+  267  ls --author
+  268  man ls
+  269  ls -l --author
+  270  cd ..
+  271  ls -l --author
+  272  ls -l
+  273  man ls
+  274  cd Developer/repos/eeb-c177-homework/
+  275  ls
+  276  mkdir class-assignments
+  277  mkdir HW_Week2_01-14_2020
+  278  ls
+  279  rm -r HW_Week2_01-14_2020/
+  280  cd class-assignments/
+  281  mkdir HW_Week2_01-14-2020
+  282  ls
+  283  cd HW_Week2_01-14-2020/
+  284  pwd
+  285  mv ~/Downloads/data-shell/ /home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/HW_Week2_01-14-2020
+  286  ls
+  287  cd data-shell/
+  288  ls -F
+  289  mkdir thesis
+  290  ls -F thesis
+  291  man ls
+  292  cd thesis
+  293  cd Developer/repos/eeb-c177-homework/
+  294  ls
+  295  cd class-assignments/
+  296  ls
+  297  cd HW_Week2_01-14-2020/
+  298  ls
+  299  cd data-shell/
+  300  ls
+  301  cd thesis
+  302  ls
+  303  nano draft.txt
+  304  ls
+  305  touch my_file.txt
+  306  ls
+  307  ls -l
+  308  cd ..
+  309  ls
+  310  mv thesis/draft.txt thesis/quotes.txt
+  311  ls thesis
+  312  mv thesis/quotes.txt .
+  313  ls
+  314  ls thesis
+  315  ls quotes.txt
+  316  ls -F
+  317  cp quotes.txt thesis/quotations.txt
+  318  ls quotes.txt thesis/quotations.txt
+  319  cp -r thesis thesis_backup
+  320  ls thesis thesis_backup
+  321  ls
+  322  less quotes.txt
+  323  rm quotes.txt 
+  324  ls
+  325  ls quotes.txt
+  326  rm -i thesis_backup/quotations.txt
+  327  ls thesis_backup/quotations.txt 
+  328  less thesis_backup/quotations.txt 
+  329  rm -i thesis_backup/quotations.txt
+  330  ls thesis
+  331  rm -r thesis
+  332  ls
+  333  cd data/
+  334  mkdir backup
+  335  ls
+  336  cp amino-acids.txt animals.txt backup/
+  337  ls
+  338  ls backup/
+  339  ls -F
+  340  cp amino-acids.txt animals.txt morse.txt
+  341  cd ..
+  342  ls
+  343  cd molecules/
+  344  cd ../data
+  345  ls
+  346  cd ../molecules/
+  347  ls
+  348  ls *t*ane.pdb
+  349  ls *t??ne.pdb
+  350  ls -F
+  351  cd ..
+  352  ls -F
+  353  cd ..
+  354  ls
+  355  nano HW_Week2_01-14-2020.txt
+  356  mv HW_Week2_01-14-2020.txt HW_Week2_01-14-2020_commands.txt
+  357  ls
+  358  nano HW_Week2_01-14-2020_comments.txt
+  359  less HW_Week2_01-14-2020_comments.txt 
+  360  less HW_Week2_01-14-2020_commands.txt.txt 
+  361  less HW_Week2_01-14-2020_commands.txt
+  362  cd ..
+  363  ls
+  364  cd ..
+  365  git status
+  366  git add -A
+  367  git commit -m "added Lecture HW Week 2, 01-14-2020"
+  368  git push origin master
+  369  ls
+  370  cd class_assignments_1-14_2020/
+  371  ls
+  372  cd ..
+  373  ls
+  374  cd Developer/repos/eeb-c177-homework/
+  375  git status
+  376  git add -A
+  377  git commit -m "added comments to lecture HW week2, 01-14-2020"
+  378  git push origin master
+  379  cd Developer/repos/eeb-c177-homework/
+  380  ls
+  381  cd class_assignments_1-14_2020/
+  382  ls
+  383  cd ..
+  384  ls
+  385  rm -r class_assignments_1-14_2020/
+  386  ls
+  387  cd class-assignments/
+  388  ls
+  389  nano Thursday-1-16.txt
+  390  git add -A
+  391  git commit -m "add file for class Thursday, January 16"
+  392  git push origin master
+  393  ls
+  394  mv Thursday-1-16.txt classwork-Thursday-1-16.txt
+  395  ls
+  396  ls ~/CSB
+  397  ls ~/Developer/repos/CSB/
+  398  cd ~/Developer/repos/CSB
+  399  ls
+  400  cd ..
+  401  ls
+  402  CSB_2019/
+  403  s
+  404  ls
+  405  cd ..
+  406  cd CSB
+  407  ls
+  408  cd repos/
+  409  ls
+  410  cd CSB
+  411  ls
+  412  cd unix
+  413  ls
+  414  ls data/
+  415  ls
+  416  ls ..
+  417  ls .
+  418  cp data/Buzzard2015_about.txt ./sandbox/buzz.txt
+  419  cd ..
+  420  ls
+  421  cd unix/
+  422  ls
+  423  cd sandbox/
+  424  ls
+  425  mv buzz.txt Buzzard2015_about.txt
+  426  ls
+  427  cd ~
+  428  touch my_file.txt
+  429  mv my_file.txt Developer/repos/CSB/unix/sandbox/
+  430  cd Developer/repos/CSB/unix/
+  431  ls
+  432  cd sandbox/
+  433  ls
+  434  cd ..
+  435  ls
+  436  cd data/
+  437  ls
+  438  cd ..
+  439  cd sandbox/
+  440  ls
+  441  less my_file.txt 
+  442  rm my_file.txt 
+  443  ls
+  444  less Buzzard2015_about.txt 
+  445  cd "Papers and reviews"/
+  446  ls
+  447  less "My Manuscript.txt" 
+  448  cd ..
+  449  ls
+  450  cd ../data/
+  451  ls
+  452  less Buzzard2015_data.csv 
+  453  cd ../sandbox/
+  454  ls
+  455  mv Buzzard2015_about.txt buzz-2015.txt
+  456  touch file1.txt
+  457  cd ../data/
+  458  ls
+  459  cd ../data/
+  460  ls
+  461  mv ../sandbox/buzz-2015.txt .
+  462  ls
+  463  mv buzz-2015.txt ../sandbox/
+  464  ls
+  465  ls ../data/
+  466  ls ../sandbox/
+  467  ls
+  468  mv ../sandbox/file1.txt .
+  469  ls
+  470  cd ../sandbox/
+  471  ls
+  472  mkdir -p dir1/dir2
+  473  ls
+  474  ls -F
+  475  ls -F dir1/
+  476  man ls
+  477  cd dir1/dir2/
+  478  ls
+  479  mkdir file1.txt file2.txt file3.txt file4.txt file5.txt
+  480  ls
+  481  rm *.txt
+  482  rm -r *.txt
+  483  ls
+  484  touch file1.txt file2.txt file3.txt file4.txt file5.txt
+  485  ls
+  486  rm *.txt
+  487  ls
+  488  cd ..
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd ..
+  493  ls
+  494  cd data/
+  495  ls
+  496  cd ../sandbox/dir1/dir2/
+  497  l
+  498  ls
+  499  man rm
+  500  touch f1.txt f2.txt f3.txt
+  501  cd ..
+  502  ls
+  503  rmdir dir2/
+  504  ls
+  505  rmdir -r dir2/
+  506  rm -r dir2/
+  507  ls
+  508  mkdir dir2
+  509  rm -r -i dir2/
+  510  ls
+  511  mkdir dir2
+  512  cd dir2/
+  513  ls
+  514  touch f1.txt f2.txt f3.txt
+  515  cd ..
+  516  ls
+  517  rm -r dir1/
+  518  history
+  519  history n=5
+  520  history 5
+  521  history 10
+  522  man history 
+  523  history 25 > unix-commands-used-in-class.txt
+  524  ls
+  525  less unix-commands-used-in-class.txt 
+  526  man less
+  527  less unix-commands-used-in-class.txt 
+  528  cd ../data/
+  529  ls
+  530  less Marra2014_data.fasta 
+  531  cat Marra2014_about.txt Gesquiere2011_about.txt Pacifici2013_about.txt 
+  532  wc Gesquiere2011_about.txt 
+  533  wc Pacifici2013_
+  534  wc Pacifici2013_about.txt 
+  535  wc Pacifici2013_data.csv 
+  536  git add -A
+  537  cd ..
+  538  ls
+  539  cd ..
+  540  ls
+  541  cd eeb-c177-homework/
+  542  ls
+  543  git status
+  544  cd ..
+  545  git status 
+  546  cd ..
+  547  cd repos/eeb-c177-homework/
+  548  ls
+  549  git status
+  550  git add -A
+  551  git status
+  552  cd .
+  553  cd class-assignments/
+  554  ls
+  555  less classwork-Thursday-1-16.txt 
+  556  history n > classwork-Thursday-1-16.txt 
+  557  history 10 > classwork-Thursday-1-16.txt 
+  558  ls
+  559  less classwork-Thursday-1-16.txt 
+  560  history > classwork-Thursday-1-16.txt 
