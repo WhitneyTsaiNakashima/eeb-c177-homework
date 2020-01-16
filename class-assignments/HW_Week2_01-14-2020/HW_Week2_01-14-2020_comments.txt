@@ -1,5 +1,7 @@
-HW Week2 01-14-2020
-Answers to questions
+# Lecture HW Week 2, commands
+# 01-14-2020
+# Answers to questions from http://swcarpentry.github.io/shell-novice/03-create/index.html
+# commands file: /home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/HW_Week2_01-14-2020/HW_Week2_01-14-2020_commands.txt
 
 Creating files a different way
 1. This created a file called my_file.txt without opening it to edit like the nano command did
@@ -38,4 +40,3 @@ Reproduce folder structure
 The first two sets will recreate the folder structure.
 The third set will give an error because the 2016-05-20 and data directories don't exist.
 The fourth set will make a 2016-05-20 directory with data, raw, and processed directories.
-

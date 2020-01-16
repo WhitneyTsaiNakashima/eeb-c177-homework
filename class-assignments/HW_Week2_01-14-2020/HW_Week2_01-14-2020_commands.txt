@@ -1,31 +1,49 @@
+# Lecture HW Week 2, commands
+# 01-14-2020
+# Exercises from http://swcarpentry.github.io/shell-novice/03-create/index.html
+# comments file: /home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/HW_Week2_01-14-2020/HW_Week2_01-14-2020_comments.txt
+
+# download and move data-shell directory to class-assignments
 cd /home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/HW_Week2_01-14-2020
 mv ~/Downloads/data-shell/ /home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/HW_Week2_01-14-2020
 cd data-shell
+# Step One
 pwd
 ls -F
+# create a directory
 mkdir thesis
+# view contents
 ls -F thesis
 cd thesis
+# create a file and edit it with text
 nano draft.txt
 ls
+# create an empty file
 touch my_file.txt
 ls -l
+# move file
 mv thesis/draft.txt thesis/quotes.txt
 ls thesis
+# move file to current working directory
 mv thesis/quotes.txt .
 ls thesis
 ls quotes.txt
+# copy file
 cp quotes.txt thesis/quotations.txt
 ls quotes.txt thesis/quotations.txt
+# copy directory
 cp -r thesis thesis_backup
+# view multiple directories
 ls thesis thesis_backup
+# remove file
 rm quotes.txt
 ls quotes.txt
+# remove file with check y/n for removal
 rm -i thesis_backup/quotations.txt
-rm thesis
+# remove directory recursively
 rm -r thesis
 cd data
 mkdir backup
+# copy multiple files
 cp amino-acids.txt animals.txt backup/
-cp amino-acids.txt animals.txt morse.txt
 cd ../molecules
