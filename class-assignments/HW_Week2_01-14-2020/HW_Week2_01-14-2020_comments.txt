@@ -1,0 +1,41 @@
+HW Week2 01-14-2020
+Answers to questions
+
+Creating files a different way
+1. This created a file called my_file.txt without opening it to edit like the nano command did
+2. The file is 0 bytes
+3. When you need to create a blank file without editing it right away. The blank file could be used as a placeholder for a program to fill later.
+
+Moving files to a new folder
+mv sucrose.dat maltose.dat ../raw
+
+Renaming files
+2. mv statstics.txt statistics.txt
+
+Moving and copying
+2. recombine
+
+Using rm safely
+The output is:
+rm: remove regular file 'thesis_backup/quotations.txt'?
+This provides a double check to make sure we want to delete the file.
+
+Copy with multiple filenames
+cp: target 'morse.txt' is not a directory
+
+List filenames matching a pattern
+3. ls *t??ne.pdb
+
+More on wildcards
+cp *calibration.txt backup/calibration
+cp 2015-11-* send_to_bob/all_november_files/
+cp *-23-dataset* send_to_bob/all_datasets_created_on_a_23rd/
+
+Organizing directories and files
+mv *.dat analyzed
+
+Reproduce folder structure
+The first two sets will recreate the folder structure.
+The third set will give an error because the 2016-05-20 and data directories don't exist.
+The fourth set will make a 2016-05-20 directory with data, raw, and processed directories.
+
