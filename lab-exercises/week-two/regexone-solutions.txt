@@ -1,0 +1,19 @@
+2020-01-13
+Lab Week 2, HW1P1
+
+Lesson1: abc
+Lesson1.5: 123
+Lesson 2: \.
+Lesson 3: [cmf]an
+Lesson 4: [^b]og
+Lesson 5: [A-C]..
+Lesson 6: waz{3,5}up
+Lesson 7: aa+b*c+
+Lesson 8: \d+ files? found\?
+Lesson 9: \d\.\s+abc
+Lesson 10: ^Mission: successful$
+Lesson 11: ^(file_.+)\.pdf$
+Lesson 12: (\w+\s(\d+))
+Lesson 13: (\d+)x(\d+)
+Lesson 14: I love (cats|dogs)
+Lesson 15: .+

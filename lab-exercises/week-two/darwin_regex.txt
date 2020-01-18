@@ -1,0 +1,10 @@
+1. \bs\w+\b
+2. (\b\w*)(?=\.)
+3. [^.]*
+4. [^.]*struggle for existence[^.|?]*\?
+Bonus Question. (?<=^|\w[\.\?]\s)(\w*\b)
+The first part of this regex (?<=^|\w[\.\?]\s) is a look behind finding either the start
+of a new line (the beginning of the text in this case) or a character followed by a . or ?
+followed by a white space. This first part is finding either of these strings without outputting
+it as a match. The second part of this regex (\w*\b) is calling any single word and this is the regex
+matches. Thus, the first word of every sentence is called in Group 2.
