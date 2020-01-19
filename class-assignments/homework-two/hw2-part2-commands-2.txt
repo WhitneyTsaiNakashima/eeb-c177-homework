@@ -3,3 +3,5 @@
   625  head -25 Pacifici2013_data.csv 
   626  head -25 Pacifici2013_data.csv | wc
   627  history 10 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part2-commands-2.txt
+  655  head -25 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | wc -w
+  656  history 2 >> ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part2-commands-2.txt

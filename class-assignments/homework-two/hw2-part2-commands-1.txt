@@ -13,3 +13,6 @@
   644  less Pacifici-25wordcount.txt 
   645  wc Pacifici-25lines.txt > Pacifici-25wordcount.txt
   646  history 10 >> hw2-part2-commands-1.txt
+  651  wc -w Pacifici-25lines.txt > Pacifici-25wordcount.txt
+  652  less Pacifici-25wordcount.txt 
+  653  history 3 >> hw2-part2-commands-1.txt 
