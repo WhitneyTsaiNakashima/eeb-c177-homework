@@ -1,8 +1,3 @@
-  618  less hw2-part2-commands-1.txt 
-  619  nano hw2-part2-commands-1.txt 
-  620  git add -A
-  621  git commit -m "lecture hw2, part 2, q4"
-  622  git push origin master
   623  cd ~/Developer/repos/CSB/unix/sandbox/
   624  cd ../data/
   625  head -25 Pacifici2013_data.csv 
