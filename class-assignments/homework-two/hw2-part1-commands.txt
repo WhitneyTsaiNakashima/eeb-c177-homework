@@ -1,0 +1,20 @@
+
+  586  cd ~/Developer/repos/CSB/unix/sandbox/
+  587  ls
+  588  wget -c http://dev.shawntylerschwartz.com/docs/paragraphs.txt
+  589  mkdir ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two
+  590  mv paragraphs.txt ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+  591  cd ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+  592  ls
+  593  history
+  594  git add -A
+  595  git commit -m "add lecture hw2, part1, q1-2"
+  596  git push origin master
+  597  history 10
+  598  ls
+  599  mv paragraphs.txt easy-question.txt
+  600  git add -A
+  601  git commit -m "lecture hw2, part 1, q3"
+  602  git push origin master
+  603  history 100
+  604  history 40 > hw2-part1-commands.txt
