@@ -1,0 +1,11 @@
+  760  man sort
+  761  cd ~/Developer/repos/CSB/unix/data/
+  762  tail -n +2 Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr ";" " " | sort -n -r -k 6
+  763  tail -n +2 Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n 6 -k 6
+  764  tail -n +2 Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n 5 -k 6
+  765  tail -n +2 Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6
+  766  tail -n +2 Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/bodym.csv
+  767  cd ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+  768  ls
+  769  less bodym.csv 
+  770  history 20 > hw2-part5-commands.text
