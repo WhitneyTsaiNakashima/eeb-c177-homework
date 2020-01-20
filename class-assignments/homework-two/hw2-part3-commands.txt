@@ -1,0 +1,38 @@
+  694  cd Developer/repos/CSB/unix/dat
+  695  cd Developer/repos/CSB/unix/data
+  696  head -n 5
+  697  history
+  698  cd Developer/repos/CSB/unix/data
+  699  head -n 5 Pacifici2013_data.csv 
+  700  nano ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/Pacifici-delim.txt
+  701  git add -A
+  702  git commit -m "lecture hw2, part 3, cut command"
+  703  git push origin master
+  704  cd ~/Developer/repos/eeb-c177-homework/
+  705  git add -A
+  706  git commit -m "lecture hw2, part 3, cut command"
+  707  git push origin master
+  708  cd class-assignments/homework-two/
+  709  ls
+  710  cp ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv .
+  711  ls
+  712  rm Pacifici2013_data.csv 
+  713  cd ~/Developer/repos/CSB/unix/data/
+  714  head -n 10 Pacifici2013_data.csv | cut -d ";" -f 3
+  715  head -n 2-11 Pacifici2013_data.csv | cut -d ";" -f 3
+  716  head -n +2 Pacifici2013_data.csv | cut -d ";" -f 3
+  717  head -n 11 Pacifici2013_data.csv | cut -d ";" -f 3
+  718  tail -n 5 Pacifici2013_data.csv 
+  719  tail -n +2
+  720  history
+  721  cd Developer/repos/CSB/unix/data
+  722  tail -n +2 Pacifici2013_data.csv 
+  723  tail -n +2 Pacifici2013_data.csv | head -n 10 Pacifici2013_data.csv 
+  724  man tail
+  725  tail -n +2 Pacifici2013_data.csv | head -n 10
+  726  tail -n +2 Pacifici2013_data.csv | head -n 10 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/Pacifici-ten.txt
+  727  cd ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+  728  ls
+  729  less Pacifici-ten.txt 
+  730  history -40 > hw2-part3-commands.txt
+  731  history 40 > hw2-part3-commands.txt
