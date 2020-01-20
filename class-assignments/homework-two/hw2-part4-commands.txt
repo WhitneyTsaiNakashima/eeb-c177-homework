@@ -1,0 +1,19 @@
+  736  wget -c http://dev.shawntylerschwartz.com/docs/fish_species.txt
+  737  git add -A
+  738  git commit -m "lecture hw2, part4, fish_species"
+  739  git push origin master
+  740  ls
+  741  less fish_species.txt 
+  742  sort fish_species.txt > fishes-sort.txt
+  743  less fishes-sort.txt 
+  744  sort -r  fish_species.txt > fishes-rev-sort.txt
+  745  less fishes-rev-sort.txt 
+  746  man unique
+  747  man uniq
+  748  uniq -u fish_species.txt 
+  749  man uniq
+  750  uniq -c -u fish_species.txt 
+  751  uniq -c fish_species.txt 
+  752  uniq fish_species.txt 
+  753  uniq fish_species.txt > fishes-unique.txt
+  754  history 30 > hw2-part4-commands.txt
