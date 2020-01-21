@@ -1,0 +1,86 @@
+ cut -d ';' -f 2 Pacifici2013_data.csv | tail -n +2 | head -n 5 > ~/Developer/repos/eeb-c177-homework/class-assignments/2020-01-21_Lecture4-classwork.txt
+Rodentia
+Rodentia
+Rodentia
+Macroscelidea
+Rodentia
+  cut -d ';' -f 2 Pacifici2013_data.csv | tail -n +2 | sort | uniq >> ~/Developer/repos/eeb-c177-homework/class-assignments/2020-01-21_Lecture4-classwork.txt
+Afrosoricida
+Carnivora
+Cetartiodactyla
+Chiroptera
+Cingulata
+Dasyuromorphia
+Dermoptera
+Didelphimorphia
+Diprotodontia
+Eulipotyphla
+Eulyplotiphla
+Hyracoidea
+Lagomorpha
+Macroscelidea
+Microbiotheria
+Monotremata
+Notoryctemorphia
+Paucituberculata
+Peramelemorphia
+Perissodactyla
+Pholidota
+Pilosa
+Primates
+Proboscidea
+Rodentia
+Scandentia
+Sirenia
+Tubulidentata
+history 50
+  972  nano 2020-01-21_Lecture4-classwork.txt 
+  973  less 2020-01-21_Lecture4-classwork.txt 
+  974  cd ~/Developer/repos/CSB/unix/data/
+  975  ls
+  976  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2 | sort -n 
+  977  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2 | sort -r
+  978  man sort
+  979  tail -n +2 Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6 > ../sandbox/BodyM.csv
+  980  cd ../sandbox/
+  981  ls
+  982  head -n 5 BodyM.csv 
+  983  rm BodyM.csv 
+  984  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 6 > ../sandbox/BodyM.csv
+  985  less BodyM.csv 
+  986  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 6 > BodyM.csv
+  987  head -n 5 BodyM.csv 
+  988  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 3 > BodyM.csv
+  989  head -n 5 BodyM.csv 
+  990  rm BodyM.csv 
+  991  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 3 > BodyM.csv
+  992  head -n 5 BodyM.csv 
+  993  wc -l BodyM.csv 
+  994  rm BodyM.csv 
+  995  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 6 > BodyM.csv
+  996  head -n 5 BodyM.csv 
+  997  rm BodyM.csv 
+  998  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr ";" " " | sort -r -n -k 6 > BodyM.csv
+  999  head -n 5 BodyM.csv 
+ 1000  ls
+ 1001  rm BodyM.csv 
+ 1002  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr ";" " " | sort -r -n -k 5 > BodyM.csv
+ 1003  head -n 5 BodyM.csv 
+ 1004  less BodyM.csv 
+ 1005  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6
+ 1006  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 2-6 | tr -s ";" " " | sort -r -n -k 6
+ 1007  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 4
+ 1008  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 4 > BodyM.csv
+ 1009  head -n 4 BodyM.csv 
+ 1010  man tr
+ 1011  less ../data/Pacifici2013_data.csv 
+ 1012  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" "_" | sort -r -n -k 4
+ 1013  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" "_" | sort -r -n -k 2
+ 1014* tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | tr -s ";" " " | sort -r -n -k 4 
+ 1015  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | sort -r -n -k 4 | tr -s ";" " "
+ 1016  tail -n +2 ../data/Pacifici2013_data.csv  | cut -d ";" -f 4-6 | sort -r -n -k 3 | tr -s ";" " "
+ 1017  cd ~/Developer/repos/ee
+ 1018  cd ~/Developer/repos/eeb-c177-homework/
+ 1019  cd class-assignments/
+ 1020  ls
+ 1021  history 50 >> 2020-01-21_Lecture4-classwork.txt 
