@@ -11,6 +11,7 @@ cd /Developer/repos/CSB/unix/sandbox/
 ls -h -l ../data/Marra2014_data.fasta
 ```
 **Answer: 553 kb**
+
 3. Create a copy of Marra2014_data.fasta in the sandbox and name it my_file.fasta.
 ```python
 cp ../data/Marra2014_data.fasta ./my_file.fasta
@@ -20,11 +21,13 @@ cp ../data/Marra2014_data.fasta ./my_file.fasta
 grep -c isogroup00036 my_file.fasta
 ```
 **Answer: 16**
+
 5. Replace the original "two-spaces" delimiter with a comma.
 ```python
 cat my_file.fasta | tr -s " " | tr " " "," > my_new_file.fasta
 ```
 **Comment:** I tried added the > my_file.fasta to the end of the command to write over the file, but then my_file.fasta was empty. This is why I decided to save a new file. I could at this point replace the old file with the new file using the mv command, but have left it for the sake of clarity.
+
 6. How many unique isogroups are in the file?
 ```python
 grep '>' my_new_file.fasta | cut -d "," -f 4 | uniq | wc -l
@@ -54,6 +57,7 @@ cut -f 1 Gesquiere2011_data.csv | grep -c -w 27
 **Answers: Individual 3 = 61, Individual 27 = 5**
 
 **Comment:** See scripts in /hw2-ec/
+
 2. Write a script taking as input the file name and the ID of the individual, and returning the number of records for that ID.
 ```python
 # change directories to sandbox
