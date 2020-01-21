@@ -68,6 +68,11 @@ cp Gesquiere-q2.sh ~/Developer/repos/eeb-c177-homework/class-assignments/homewor
 ```
 3. [**Advanced**] Write a script that returns the number of times each individual was sampled.
 ```python
+cd ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-ec
 # determine the number of unique baboon IDs
 cut -f -1 Gesquiere2011_data.csv | sort -n |uniq
-
+# remove header
+tail -n +2 ~/Developer/repos/CSB/unix/data/Gesquiere2011_data.csv | cut -f -1 | sort -n |uniq
+bash Gesquiere-q3.sh
+```
+**Comment:** I used the footnote resources computingskillsforbiologists.com/captureoutput /bashloops to learn how to store a variable and more about writing loops.  I initially tried running the script but had surrounded the variable statement with forward ticks instead of back ticks and the script would not work. I realized my mistake and made the change and the script ran.
